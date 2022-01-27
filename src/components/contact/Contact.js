@@ -44,13 +44,13 @@ function Contact() {
                 <div className="contact-left">
                     <h2 className="contact-text">Links and contact</h2>
                     <div className="contact-info">
-                        <a href="https://www.linkedin.com/in/judyta-filipkowska/">
+                        <a href="https://www.linkedin.com/in/judyta-filipkowska/" target="_blank" >
                             <div className="contact-item">
                                 <img src={LinkedIn} alt="" className="contact-image" />
                                 <h6>Let's connect!</h6>
                             </div>
                         </a>
-                        <a href="https://github.com/judytafilipkowska">
+                        <a href="https://github.com/judytafilipkowska" target="_blank" >
                             <div className="contact-item">
                                 <img src={GitHub} alt="" className="contact-image" />
                                 <h6>Check my code</h6>
@@ -72,16 +72,19 @@ function Contact() {
                 </div>
                 <div className="contact-right">
                     <p className="contact-mail-text">
-                        <b>Get in touch!</b> You can send me a  message here:
+                        <b>Get in touch!</b> You can send me a message here :)
                     </p>
-                    <form ref={formRef} onSubmit={handleSubmit}>
-                        <input type="text" placeholder="Your name" name="user_name" value={userName} onChange={handleUserName}></input>
-                        <input type="text" placeholder="Subject" name="user_subject" value={userSubject} onChange={handleUserSubject}></input>
-                        <input type="text" placeholder="Your email address" name="user_email" value={userEmail} onChange={handleUserEmail}></input>
-                        <textarea rows="5" placeholder="Message..." name="message" value={message} onChange={handleMessage}></textarea>
-                        <button type="submit">Send</button>
-                        {done && <p className="send-message">I will get back to you soon!</p>}
-                    </form>
+                    <div className="form-adjust">
+                        <form ref={formRef} onSubmit={handleSubmit}>
+                            <input type="text" placeholder="Your name" name="user_name" value={userName} onChange={handleUserName}></input>
+                            <input type="text" placeholder="Subject" name="user_subject" value={userSubject} onChange={handleUserSubject}></input>
+                            <input type="text" placeholder="Your email address" name="user_email" value={userEmail} onChange={handleUserEmail}></input>
+                            <textarea rows="5" placeholder="Message..." name="message" value={message} onChange={handleMessage}></textarea>
+                            <br></br>
+                            <button type="submit">Send</button>
+                            {done && <p className="send-message">I will get back to you soon!</p>}
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
