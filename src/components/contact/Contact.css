@@ -1,0 +1,82 @@
+.contact {
+  height: 100vh;
+  position: relative;
+}
+
+.contact-background {
+  width: 20px;
+  height: 100%;
+  background-color: chocolate;
+  position: absolute;
+}
+
+.contact-wrapper {
+  padding: 50px;
+  display: flex;
+}
+
+.contact-left {
+  flex: 1;
+}
+
+.contact-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-text {
+  font-size: 60px;
+  width: 80%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin: 25px 0;
+  font-weight: 300;
+}
+.contact-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.contact-mail-text {
+  font-weight: 400;
+}
+
+form {
+  margin-top: 30px;
+}
+
+input {
+  width: 70%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 10px 0px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+textarea {
+  width: 100%;
+  margin: 10px 0px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+button {
+  border: none;
+  padding: 20px;
+  background-color: coral;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
