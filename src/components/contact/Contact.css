@@ -1,5 +1,5 @@
 .contact {
-  height: 100vh;
+  height: 90vh;
   position: relative;
 }
 
@@ -79,4 +79,41 @@ button {
   color: white;
   font-weight: bold;
   cursor: pointer;
+}
+
+.send-message {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .contact-wrapper {
+    flex-direction: column;
+  }
+  .contact {
+    height: 100vh;;
+  }
+
+  .contact-wrapper {
+    padding: 15px 50px;
+  }
+  .contact-background {
+    width: 20px;
+    height: 100%;
+    background-color: chocolate;
+    position: absolute;
+  }
+
+  .contact-text {
+    font-size: 30px;
+  }
+
+  form {
+    margin-top: 10px;
+  }
+  textarea {
+    width: 100%;
+    margin: 20px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+  }
 }

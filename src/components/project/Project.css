@@ -1,7 +1,7 @@
 .project {
   padding: 50px;
   margin: 10px;
-  height: 40vh;
+  height: 35vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -21,4 +21,10 @@
 
 .project-description {
   font-size: 15px;
+}
+
+@media screen and (max-width: 480px) {
+  .project {
+padding: 5px 50px
+  }
 }

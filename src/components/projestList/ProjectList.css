@@ -1,14 +1,5 @@
-.projects {
-  margin-left: 150px;
-}
-
-.projects-heading {
-  margin: 20px 10px;
-  font-size: 50px;
-}
-
-.project-list {
-  height: 100vh;
+.project-list-wrapper {
+  height: 50vh;
   display: flex;
   align-items: center;
 }
@@ -26,4 +17,22 @@
   flex: 1;
   margin-top: 150px;
   margin-right: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .project-list-wrapper {
+    flex-direction: column;
+  }
+
+  .projects {
+    margin-left: 40px;
+  }
+
+  .project-list-wrapper {
+    height: 100%;
+  }
+
+  .project-list-right {
+    margin: 0 20px 30px 20px;
+  }
 }
