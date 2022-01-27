@@ -6,7 +6,7 @@
 .contact-background {
   width: 1.3rem;
   height: 100%;
-  background-color: #FBEEC1;
+  background-color: #5E87A2;
   position: absolute;
 }
 
@@ -30,6 +30,12 @@
 .contact-text {
   font-size: 4rem;
   width: 80%;
+  color: #365f7a;;
+}
+
+h6 {
+  color: #3c6581;
+  font-size: 1rem;
 }
 
 a {
@@ -75,7 +81,7 @@ textarea {
 button {
   border: none;
   padding: 1.3rem;
-  background-color: #FBEEC1;
+  background-color: #5E87A2;
   color: white;
   font-weight: bold;
   cursor: pointer;

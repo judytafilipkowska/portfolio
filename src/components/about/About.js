@@ -1,8 +1,6 @@
 import './About.css'
-import Traveller from "../../image/traveller.jpg"
-import Palm from "../../image/palm.jpg"
-import Sunset from "../../image/sunset.jpg"
-import Water from "../../image/water.jpg"
+import Traveller from "../../image/traveller.png"
+import Dots from "../../image/dots.png"
 
 function About() {
     return (
@@ -17,9 +15,7 @@ function About() {
                 <h1 className="about-heading">About me</h1>
                 <p className="about-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, id facilis. Ea sapiente aliquam inventore, aperiam possimus voluptatibus beatae veniam soluta maxime omnis cum reiciendis veritatis, dolores placeat, esse qui.</p>
                 <div className="about-pics">
-                    <img src={Palm} alt="" className="about-my-pics" />
-                    <img src={Sunset} alt="" className="about-my-pics" />
-                    <img src={Water} alt="" className="about-my-pics" />
+                    <img src={Dots} alt="" className="about-dots" />
                 </div>
             </div>
         </div>
