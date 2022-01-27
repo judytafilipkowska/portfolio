@@ -1,9 +1,11 @@
 import './Welcome.css'
-import Picture from '../../image/—Pngtree—wooden hanging with tropical_3551374.png'
+import Picture from "../../image/picture.png"
+import Bg from "../../image/background-pic.jpg"
 
 function Welcome() {
     return (
         <div className="welcome">
+        <img src={Bg} alt="" className="background-picture" />
             <div className="welcome-left">
                 <div className="welcome-left-wrapper">
                     <h2><div className="welcome-message">Hey, My name is </div></h2>
@@ -16,8 +18,8 @@ function Welcome() {
 
             </div>
             <div className="welcome-right">
-                <div className="welcome-background"> </div>
-                <img src={Picture} alt="" className="welcome-picture" />
+                {/* <div className="welcome-background"> </div> */}
+                {/* <img src={Picture} alt="" className="welcome-picture" /> */}
             </div>
         </div>
     )

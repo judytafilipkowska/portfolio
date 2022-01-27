@@ -1,11 +1,20 @@
+/* 
+blue: #659DBD
+orange: #DAAD86
+brown: #BC986A
+beige: #FBEEC1*/
+
 .about {
-  height: 100vh;
+  max-height: 100vh;
   display: flex;
   align-items: center;
+  padding-top: 3rem;
+  margin-bottom: 6rem;;
 }
 
 .about-left {
-  height: 100%;
+  margin-top: 4rem;
+  height: 50%;
   flex: 1;
   display: flex;
   align-items: center;
@@ -15,21 +24,22 @@
 
 .about-right {
   flex: 1;
+  margin-right: 2rem;
 }
 
 .about-component {
   width: 60%;
-  height: 70vh;
-  border-radius: 30px;
+  height: 100%;
+  border-radius: 1.9rem;
   position: relative;
   overflow: hidden;
 }
 
 .about-component.background {
   position: absolute;
-  top: 70px;
-  left: 100px;
-  background-color: #819078;
+  top: -1.1rem;
+  left: 7rem;
+  background-color: #e4c8bd;
 }
 
 .about-picture {
@@ -38,32 +48,30 @@
   object-fit: cover;
 }
 
-.about-heading{ 
-font-size: 40px;
-margin-bottom: 20px;
+.about-heading {
+  font-size: 3rem;
+  margin-bottom: 1.3rem;
+  color: #3c6581;
 }
 
-.about-subheading {
-  font-size: 25px;
-  margin-bottom: 25px;
-}
 
 .about-description {
-  font-size: 20px;
-  margin-bottom: 15px;
+  font-size: 1.3rem;
+  margin-bottom: 0.9rem;
+  color: #51748B;
 }
 
 .about-my-pics {
-  width: 120px;
-  height: 120px;
-  border-radius: 20px;
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 1.3rem;
 }
 
 .about-pics {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 20px;
+  padding: 1.3rem;
 }
 
 @media screen and (max-width: 480px) {
@@ -71,15 +79,13 @@ margin-bottom: 20px;
     height: 100%;
     flex-direction: column;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 3rem;
   }
 
   .about-left {
     width: 100%;
-    
   }
   .about-component {
-
     height: 20vh;
   }
   .about-component.background {
@@ -87,7 +93,7 @@ margin-bottom: 20px;
   }
 
   .about-right {
-    margin: 20px;
+    margin: 1.3rem;
   }
 
   .about-my-pics {

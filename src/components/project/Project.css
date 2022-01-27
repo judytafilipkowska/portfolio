@@ -1,7 +1,7 @@
 .project {
-  padding: 50px;
-  margin: 10px;
-  height: 35vh;
+  padding: 3rem;
+  margin: 0.6rem;
+  height: 25vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -11,20 +11,20 @@
   color: black;
 }
 .project-title {
-  font-size: 40px;
+  font-size: 3rem;
 }
 
 .project-subtitle {
-  font-size: 20px;
-  font-weight: 300px;
+  font-size: 1.3rem;
+  font-weight: 300;
 }
 
 .project-description {
-  font-size: 15px;
+  font-size: 0.9rem;
 }
 
 @media screen and (max-width: 480px) {
   .project {
-padding: 5px 50px
+    padding: 0.3rem 3rem;
   }
 }
