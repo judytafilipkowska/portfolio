@@ -77,3 +77,23 @@
   top: 0;
   right: 0;
 }
+
+@media screen and (max-width: 480px) {
+  .welcome {
+    flex-direction: column;
+  }
+  .welcome-left-wrapper {
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+  }
+
+  .welcome-message {
+    margin-bottom: 10px;
+  }
+  .welcome-name {
+    margin-bottom: 15px;
+  }
+}
