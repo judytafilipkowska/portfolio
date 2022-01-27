@@ -1,9 +1,13 @@
+import "./ProjectItem.css"
+import Jobhunter from "../../image/jobhunter.png"
+
+
 function ProjectItem() {
-    return ( 
+    return (
         <div>
-            card
+            <img src={Jobhunter} alt="" className="project-item" />
         </div>
-     );
+    );
 }
 
 export default ProjectItem;
