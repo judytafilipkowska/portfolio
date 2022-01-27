@@ -1,5 +1,4 @@
 import './Welcome.css'
-import Picture from "../../image/picture.png"
 import Bg from "../../image/background-pic.jpg"
 
 function Welcome() {
@@ -17,10 +16,10 @@ function Welcome() {
                 </div>
 
             </div>
-            <div className="welcome-right">
-                {/* <div className="welcome-background"> </div> */}
-                {/* <img src={Picture} alt="" className="welcome-picture" /> */}
-            </div>
+            {/* <div className="welcome-right">
+                <div className="welcome-background"> </div> 
+                <img src={Picture} alt="" className="welcome-picture" />
+            </div> */}
         </div>
     )
 }
