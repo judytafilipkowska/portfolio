@@ -1,6 +1,6 @@
 .welcome {
   display: flex;
-  max-height: 100vh;
+  height: 100vh;
 }
 .background-picture {
   width: 100%;
@@ -17,7 +17,7 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  width:50vw;
+  width:60vw;
 }
 
 .welcome-right {
@@ -25,7 +25,7 @@
   position: absolute;
 }
 .welcome-left-wrapper {
-  padding: 3rem;
+  padding: 8rem;
   margin: 1.6rem;
   height: 60%;
   display: flex;
@@ -41,37 +41,13 @@
 
 .welcome-name {
   font-size: 3.75rem;
-  color: #51748B;
-}
-
-.welcome-title {
-  height: 3rem;
-  overflow: hidden;
-}
-
-.welcome-title-wrapper {
-  height: 100%;
-  animation: move 10s ease-in-out infinite alternate;
-}
-
-@keyframes move {
-  25% {
-    transform: translateY(-50px);
-  }
-}
-
-.welcome-title-about {
-  height: 3rem;
-  font-size: 1.9rem;
-  font-weight: bold;
-  color: coral;
-  /* background-color: darkblue; */
-  display: flex;
-  align-items: center;
+  color: #365f7a;
 }
 
 .welcome-desription {
+  margin-top:1rem;
   font-size: 1.25rem;
+
   color:#64727A;
 }
 

@@ -12,15 +12,18 @@
 }
 .project-title {
   font-size: 3rem;
+  color: #365f7a;
 }
 
 .project-subtitle {
   font-size: 1.3rem;
-  font-weight: 300;
+  font-weight: 500;
+  color: #365f7a;
 }
 
 .project-description {
   font-size: 0.9rem;
+  color: #51748B;
 }
 
 @media screen and (max-width: 480px) {
