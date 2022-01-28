@@ -1,10 +1,8 @@
 import './Welcome.css'
-import Bg from "../../image/background-pic.jpg"
 
 function Welcome() {
     return (
-        <div className="welcome">
-        <img src={Bg} alt="" className="background-picture" />
+        <div className="welcome" id="/" >
             <div className="welcome-left">
                 <div className="welcome-left-wrapper">
                     <h2><div className="welcome-message">Hey, My name is </div></h2>
@@ -16,10 +14,8 @@ function Welcome() {
                 </div>
 
             </div>
-            {/* <div className="welcome-right">
-                <div className="welcome-background"> </div> 
-                <img src={Picture} alt="" className="welcome-picture" />
-            </div> */}
+            <div className="welcome-right">
+            </div>
         </div>
     )
 }

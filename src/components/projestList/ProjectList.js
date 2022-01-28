@@ -10,9 +10,11 @@ function ProjectList() {
     const [projects, setProjects] = useState(data)
     return (
         <>
+         <h1 id="projects">Projects</h1>
             {projects.map((project) => {
                 return (
                     <>
+                       
                         <div className="project-list-wrapper">
                             <div className="project-list-left">
 
@@ -26,10 +28,10 @@ function ProjectList() {
 
                         </div>
                         <div className="div-dots">
-                          <img src={Dots} alt="" className="dots" />
+                            <img src={Dots} alt="" className="dots" />
                         </div>
                     </>
-               
+
 
                 )
             })

@@ -1,33 +1,26 @@
 .welcome {
   display: flex;
-  height: 90vh;
+  height: 100vh;
+  background-image: url("../../image/background-pic.jpg");
+  background-size: cover;
 }
-.background-picture {
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-  /* position: relative; */
-  overflow: hidden;
-}
+
 .welcome-left {
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  /* position: reltive; */
   width: 60vw;
 }
-
 .welcome-right {
-  /* flex: 1; */
-  position: absolute;
+  flex: 1;
 }
+
 .welcome-left-wrapper {
-  padding: 8rem;
+  padding: 8rem 2rem;
   margin: 1.6rem;
-  height: 60%;
+  height: 35%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -45,9 +38,7 @@
 }
 
 .welcome-desription {
-  margin-top: 1rem;
   font-size: 1.25rem;
-
   color: #64727a;
 }
 
