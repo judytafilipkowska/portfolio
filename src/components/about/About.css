@@ -1,9 +1,3 @@
-/* 
-blue: #659DBD
-orange: #DAAD86
-brown: #BC986A
-beige: #FBEEC1*/
-
 .about {
   max-height: 100vh;
   display: flex;
@@ -12,8 +6,8 @@ beige: #FBEEC1*/
 }
 
 .about-left {
-  margin-top: 4rem;
-  height: 50%;
+  /* margin-top: 4rem; */
+  /* height: 50%; */
   flex: 1;
   display: flex;
   align-items: center;
@@ -28,17 +22,9 @@ beige: #FBEEC1*/
 
 .about-component {
   width: 60%;
-  height: 100%;
   border-radius: 1.9rem;
   position: relative;
   overflow: hidden;
-}
-
-.about-component.background {
-  position: absolute;
-  top: -1.1rem;
-  left: 7rem;
-  /* background-color: #a5b9c1; */
 }
 
 .about-picture {
@@ -54,11 +40,21 @@ beige: #FBEEC1*/
 }
 
 .about-description {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin-bottom: 0.9rem;
+  margin-left: 1.3rem;
   color: #51748b;
+  width: 40vw;
 }
 
+span {
+  font-weight: bold;
+  margin-left: 1.3rem;
+}
+.list {
+  list-style: none;
+  padding: 0.6rem;
+}
 .about-dots {
   width: 10rem;
 }
@@ -71,27 +67,60 @@ beige: #FBEEC1*/
 
 @media screen and (max-width: 480px) {
   .about {
-    height: 100%;
     flex-direction: column;
     text-align: center;
-    margin-top: 3rem;
-  }
-
-  .about-left {
-    width: 100%;
-  }
-  .about-component {
-    height: 20vh;
-  }
-  .about-component.background {
-    display: none;
   }
 
   .about-right {
-    margin: 1.3rem;
+    margin: 0 1.3rem;
+  }
+ 
+  .about-pics {
+    margin-top: 1rem;
+  }
+  .about-description {
+    width: 100%;
+    margin: 0.1rem;
+  }
+  span {
+    display: none;
+  }
+  .list {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .about {
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-left {
+    height: 60vh;
+    width: 60%;
+  }
+
+  .about-component {
+    height: 50vh;
+  }
+
+  .about-right {
+    margin: 0 1.3rem;
   }
 
   .about-my-pics {
+    display: none;
+  }
+  .about-description {
+    width: 100%;
+    margin: 0.1rem;
+  }
+
+  span {
+    display: none;
+  }
+  .list {
     display: none;
   }
 }

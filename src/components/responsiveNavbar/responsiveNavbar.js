@@ -6,26 +6,26 @@ import { useState } from "react";
 
 function ResponsiveNavbar() {
 
-    const [isOpen, setIsOpen] = useState(false);
-    return (
-        <Nav>
-            <Logo href="/">
-                <img src={LogoIcon} alt="" />
-            </Logo>
-            <Hamburger onClick={() => setIsOpen(!isOpen)}>
-                <span />
-                <span />
-                <span />
-            </Hamburger>
-            <Menu isOpen={isOpen}>
-                <MenuLink href="#about">About me</MenuLink>
-                <MenuLink href="#projects">Projects</MenuLink>
-                <MenuLink href="#contact">Contact</MenuLink>
-                <MenuLink href="https://www.linkedin.com/in/judyta-filipkowska/" target="_blank"><AiIcons.AiFillLinkedin /></MenuLink>
-                <MenuLink href="https://github.com/judytafilipkowska" target="_blank"><AiIcons.AiFillGithub /></MenuLink>
-            </Menu>
-        </Nav>
-    );
+  const [isOpen, setIsOpen] = useState(false);
+  return (
+    <Nav>
+      <Logo href="/">
+        <img src={LogoIcon} alt="" />
+      </Logo>
+      <Hamburger onClick={() => setIsOpen(!isOpen)}>
+        <span />
+        <span />
+        <span />
+      </Hamburger>
+      <Menu isOpen={isOpen}>
+        <MenuLink href="#about">About me</MenuLink>
+        <MenuLink href="#projects">Projects</MenuLink>
+        <MenuLink href="#contact">Contact</MenuLink>
+        <MenuLink href="https://www.linkedin.com/in/judyta-filipkowska/" target="_blank"><AiIcons.AiFillLinkedin /></MenuLink>
+        <MenuLink href="https://github.com/judytafilipkowska" target="_blank"><AiIcons.AiFillGithub /></MenuLink>
+      </Menu>
+    </Nav>
+  );
 }
 
 export default ResponsiveNavbar;
