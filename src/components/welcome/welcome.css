@@ -1,6 +1,7 @@
 .welcome {
   display: flex;
-  height: 100vh;
+  flex-direction: row;
+  max-height: 100vh;
   background-image: url("../../image/background-pic.jpg");
   background-size: cover;
 }
@@ -62,15 +63,16 @@
 
 @media screen and (max-width: 480px) {
   .welcome {
+    display: flex;
     flex-direction: column;
   }
   .welcome-left-wrapper {
-    margin: 0.6rem;
+    margin:3rem 1rem 3rem 12em;
     align-items: center;
     text-align: center;
     justify-content: center;
   }
-
+ 
   .welcome-message {
     margin-bottom: 0.6rem;
     font-size: 2rem;

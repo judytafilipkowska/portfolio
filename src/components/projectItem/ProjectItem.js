@@ -1,11 +1,10 @@
 import "./ProjectItem.css"
-import Jobhunter from "../../image/jobhunter.png"
 
 
-function ProjectItem() {
+function ProjectItem({ project }) {
     return (
         <div>
-            <img src={Jobhunter} alt="" className="project-item" />
+            <img src={project.projectImg} alt="pic" className="project-item" />
         </div>
     );
 }

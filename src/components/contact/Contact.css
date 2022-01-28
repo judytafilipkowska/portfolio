@@ -6,7 +6,7 @@
 .contact-background {
   width: 1.3rem;
   height: 100%;
-  background-color: #5E87A2;
+  background-color: #5e87a2;
   position: absolute;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .form-adjust {
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -35,7 +35,7 @@
 .contact-text {
   font-size: 4rem;
   width: 80%;
-  color: #365f7a;;
+  color: #365f7a;
 }
 
 h6 {
@@ -69,7 +69,7 @@ form {
 }
 
 input {
-  width: 70%;
+  width: 60%;
   height: 3rem;
   border: none;
   border-bottom: 0.06rem solid black;
@@ -78,7 +78,7 @@ input {
   padding-left: 0.6rem;
 }
 textarea {
-  width: 70%;
+  width: 100%;
   margin: 0.6rem 0px;
   font-size: 0.9rem;
   padding-left: 0.6rem;
@@ -87,7 +87,7 @@ textarea {
 button {
   border: none;
   padding: 1.3rem;
-  background-color: #5E87A2;
+  background-color: #5e87a2;
   color: white;
   font-weight: bold;
   cursor: pointer;
@@ -101,33 +101,36 @@ button {
   .contact-wrapper {
     flex-direction: column;
   }
-
-  .contact {
-    height: 100vh;
-  }
-
   .contact-wrapper {
     padding: 0.9rem 3rem;
   }
-
-  .contact-background {
-    width: 1.3rem;
-    position: absolute;
+  .contact-right {
+    margin-top: 0.8rem;
   }
-
   .contact-text {
-    font-size: 30px;
+    font-size: 1.5rem;
+  }
+  .contact-item {
+    height: 50%;
+    margin: 0.4rem;
   }
 
   form {
     margin-top: 0.6rem;
   }
+  input {
+    height: 2rem;
+  }
   textarea {
     width: 100%;
-    margin: 1.3rem 0px;
+    margin: 0.8rem 0px;
     font-size: 0.9rem;
     padding-left: 0.6rem;
   }
 }
 
-
+@media screen and (min-width: 481) and (max-width: 768px) {
+  .contact-text {
+    font-size: 1rem;
+  }
+}

@@ -1,16 +1,18 @@
 [
   {
     "projectTitle": "JobHunter",
-    "projectSubtitle": "Full-stack project created with Node.Js, Express.Js, Handlebars.Js MongoDB and Mongoose.",
-    "projectDesription": "Job hunter is a job board where you can find the latest career opportunities that most adequate your professional profile. More description and mention Margarida add link",
+    "projectSubtitle": "Node.Js Express.Js Handlebars MongoDB Mongoose",
+    "projectDesription": "Job hunter is a job board where you can find the latest career opportunities for your professional profile. Job seekers can register and add resumes to their profile, apply for jobs and access them in their job board. Employers can post an offer and edit/delete them.",
     "projectUrl": "http://jobhunterbyjandm.herokuapp.com/",
-    "projectImg": "src/image/jobhunter.png"
+    "githubUrl": "https://github.com/judytafilipkowska/job-hunter-project",
+    "projectImg": "/images/jobhunter.png"
   },
   {
-    "projectTitle": "Doggodit",
-    "projectSubtitle": "BEKABKEKAKA",
-    "projectDesription": "lotrendas ln sdvhobjn vbuafosnidpmx finda",
-    "projectUrl": "https://doggodit.netlify.app/", 
-    "projectImg": "src/image/jobhunter.png"
+    "projectTitle": "Doggodit - UI under maintenance :)",
+    "projectSubtitle": "React.Js Node.Js Express.Js MongoDB Mongoose",
+    "projectDesription": "Social media app for dog people, where you can post and tag it with one of a few tags available. You can comment under other people's posts and get access to them through your account.",
+    "projectUrl": "https://doggodit.netlify.app/",
+    "githubUrl": "https://github.com/judytafilipkowska/doggodit-server",
+    "projectImg": "images/doggodit.png"
   }
 ]
