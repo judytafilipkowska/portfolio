@@ -129,8 +129,14 @@ button {
   }
 }
 
-@media screen and (min-width: 481) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
   .contact-text {
     font-size: 1rem;
   }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
 }
