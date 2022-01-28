@@ -1,8 +1,11 @@
-
 .project-list-wrapper {
   height: 60vh;
   display: flex;
   align-items: center;
+}
+
+#projects {
+  display: none;
 }
 
 .project-list-left {
