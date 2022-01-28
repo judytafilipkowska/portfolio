@@ -74,7 +74,7 @@ span {
   .about-right {
     margin: 0 1.3rem;
   }
- 
+
   .about-pics {
     margin-top: 1rem;
   }
@@ -101,10 +101,6 @@ span {
     width: 60%;
   }
 
-  .about-component {
-    height: 50vh;
-  }
-
   .about-right {
     margin: 0 1.3rem;
   }
@@ -114,13 +110,15 @@ span {
   }
   .about-description {
     width: 100%;
-    margin: 0.1rem;
+    margin: 1rem 2rem 1rem 0;
   }
 
-  span {
-    display: none;
-  }
   .list {
-    display: none;
   }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
 }

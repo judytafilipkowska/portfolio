@@ -1,7 +1,7 @@
 .welcome {
   display: flex;
   flex-direction: row;
-  max-height: 100vh;
+  height: 100vh;
   background-image: url("../../image/background-pic.jpg");
   background-size: cover;
 }
@@ -81,4 +81,22 @@
     margin-bottom: 0.9rem;
     font-size: 3rem;
   }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .welcome-message {
+    font-size: 2.5rem;
+  }
+  .welcome-name {
+    margin-bottom: 0.9rem;
+  }
+  .welcome-desription {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
 }
