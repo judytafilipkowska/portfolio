@@ -96,7 +96,25 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+  .welcome-message {
+    font-size: 3rem;
+  }
+
+  .welcome-name {
+    margin-bottom: 0.9rem;
+  }
+
+  .welcome-desription {
+    font-size: 1.1rem;
+  }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .welcome-message {
+    font-size: 3rem;
+  }
+
+  .welcome-desription {
+    font-size: 1.4rem;
+  }
 }

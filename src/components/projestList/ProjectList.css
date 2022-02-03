@@ -70,9 +70,18 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-
+  .project-list-left {
+    margin-top: 0.01rem;
+  }
+  .project-list-right {
+    margin-top: 15rem
+  }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
+  
+  .project-list-right {
+    margin-top: 15rem
+  }
 
 }
